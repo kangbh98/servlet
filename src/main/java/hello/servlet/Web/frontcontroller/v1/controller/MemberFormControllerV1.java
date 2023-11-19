@@ -1,4 +1,4 @@
-package hello.servlet.Web.frontcontroller.controller;
+package hello.servlet.Web.frontcontroller.v1.controller;
 
 import hello.servlet.Web.frontcontroller.v1.ControllerV1;
 import jakarta.servlet.RequestDispatcher;

@@ -1,8 +1,8 @@
 package hello.servlet.Web.frontcontroller.v1;
 
-import hello.servlet.Web.frontcontroller.controller.MemberFormControllerV1;
-import hello.servlet.Web.frontcontroller.controller.MemberListControllerV1;
-import hello.servlet.Web.frontcontroller.controller.MemberSaveControllerV1;
+import hello.servlet.Web.frontcontroller.v1.controller.MemberFormControllerV1;
+import hello.servlet.Web.frontcontroller.v1.controller.MemberListControllerV1;
+import hello.servlet.Web.frontcontroller.v1.controller.MemberSaveControllerV1;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -20,7 +20,7 @@ public class FrontControllerServletV1 extends HttpServlet {
 
     public FrontControllerServletV1() {
         controllerV1Map.put("/front-controller/v1/members/new-form", new MemberFormControllerV1());
-        controllerV1Map.put("/front-controller/v1/members/save", new MemberSaveControllerV1());
+        controllerV1Map.put("/fr ont-controller/v1/members/save", new MemberSaveControllerV1());
         controllerV1Map.put("/front-controller/v1/members", new MemberListControllerV1());
 
     }
